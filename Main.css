@@ -1,0 +1,120 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/img/background_image.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#txt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 4px;
+  font-weight: 600;
+  font-style: italic;
+  text-shadow: 0px 0px 2px #474747;
+  color: lightgrey;
+}
+
+/* #page {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65vh;
+  flex-wrap: wrap;
+} */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 64px auto;
+  width: 48px;
+  height: 48px;
+}
+
+#insta {
+  background-image: url(/Icon_social_media/instagram_black_rounded\ 48px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.3s ease;
+}
+
+#insta:hover {
+  background-image: url(/Icon_social_media/instagram_colored_rounded\ 48px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#face {
+  background-image: url(/Icon_social_media/facebook_black_rounded_48px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.3s ease;
+}
+
+#face:hover {
+  background-image: url(/Icon_social_media/facebook_colored_rounded_48px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#linkedin {
+  background-image: url(/Icon_social_media/linkedin_rounded_black_48px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.3s ease;
+}
+
+#linkedin:hover {
+  background-image: url(/Icon_social_media/linkedin_rounded_colored_48px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about-me {
+  margin-top: 6rem;
+}
+
+#about-me:hover {
+}
+
+#insta:hover,
+#face:hover,
+#linkedin:hover,
+#about-me:hover {
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px 5px darkgray;
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+#audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  color: lightgray;
+  font-style: italic;
+  font-size: 24px;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+#copyright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: large;
+  font-weight: 600;
+  font-style: italic;
+  padding: 4px;
+}
